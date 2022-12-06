@@ -348,8 +348,8 @@ template {
     display: none;
 }
 
-* {
-    box-sizing: content-box;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 html {
