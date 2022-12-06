@@ -526,8 +526,10 @@ ul.row {
     padding: 0.5rem;
 }
 
-.row {
+.row::after {
     clear: both;
+    content: "";
+    display: table;
 }
 
 .footer-copyright {
