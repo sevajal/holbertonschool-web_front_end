@@ -508,7 +508,7 @@ a:active {
     --section-tagline-margin: 0;
 }
 
-ul .row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
