@@ -383,7 +383,7 @@ html {
 }
 
 .nav .nav-link:hover {
-    background-color: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
 
 body {
