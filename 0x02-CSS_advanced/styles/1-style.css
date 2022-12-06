@@ -1,4 +1,4 @@
 html {
-    overflow: scroll;
+    overflow: auto;
     scroll-behavior: smooth;
 }
