@@ -1,0 +1,18 @@
+/* Extended list */
+%font-shared {
+    font-size: 12px;
+}
+
+.info {
+    @extend %font-shared;
+}
+
+.success {
+    @extend %font-shared;
+    color: #00FF00;
+}
+
+.warning {
+    @extend %font-shared;
+    color: #FF0000;
+}
