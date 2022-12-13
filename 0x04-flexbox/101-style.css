@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    color: white;
+    max-width: 300px;
+}
+
+.box {
+    align-self: center;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: salmon;
+    flex-grow: 2;
+    height: 2rem;
+}
+
+.box3 {
+    background-color: violet;
+    flex-grow: 3;
+    height: 3rem;
+}
+
+.box4 {
+    background-color: green;
+    flex-grow: 2;
+    height: 2rem;
+}
+
+.box5 {
+    background-color: yellow;
+}
