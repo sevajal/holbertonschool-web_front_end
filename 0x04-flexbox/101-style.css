@@ -1,0 +1,54 @@
+*, *::before, ::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.box1, .box5 {
+    font-size: 2rem;
+    width: 150px;
+    height: 100px;
+}
+
+.box2, .box4 {
+    font-size: 4rem;
+    width: 250px;
+    height: 160px;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: salmon;
+}
+
+.box3 {
+    background-color: violet;
+    font-size: 7rem;
+    width: 400px;
+    height: 250px;
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: yellow;
+}
